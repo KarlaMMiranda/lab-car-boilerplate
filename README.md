@@ -8,6 +8,7 @@ Recrea la siguiente página web. Las imágenes y todo lo que necesitas lo encuen
 ![LabCar Web](assets/images/labcar-4.jpg)
 
 2. LA VERSIÓN MOVIL
+
 Y obviamente no podemos dejar de lado la versión móvil, así que créala como segunda parte.
 
 ![LabCar Movil](assets/images/labcar-5.jpg)
