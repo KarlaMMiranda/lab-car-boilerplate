@@ -1,1 +1,255 @@
-/* Los estilos de tu proyecto */
+/* Estilos generales */
+*{
+  font-family: 'Raleway', sans-serif;
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+}
+
+/* Estilos de la navbar */
+.navbar {
+  background: #FFF;
+  padding: 1em 2em;
+  margin: 0;
+}
+
+.navbar-brand {
+  padding: 8px 15px;
+}
+
+/* Estilos de primera sección */
+.yellow-box {
+  display: inline-block;
+  color: #FFF;
+  background-color: #FFBF00;
+  position: absolute;
+  padding: 1em 3em;
+  margin: 11em 5em;
+  width: 28em;
+}
+
+.app {
+  margin-bottom: 1em;
+}
+
+.yellow-box-text {
+  color:#fff;
+  background-color: #FFBF00;
+  padding: 3em 3em;
+  position: absolute;
+  margin-top: 6em;
+}
+
+.logo-1 {
+  display: inline-block;
+  width: 3em;
+}
+
+.logo-2 {
+  display: inline-block;
+  width: 7em;
+  margin-bottom: 2em;
+}
+
+.section-1{
+  height: 40em;
+  background: url('../assets/images/taxi.jpg');
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+}
+
+.viaje {
+  font-weight: 700;
+}
+
+.viaja {
+  font-weight: 600;
+}
+
+.btn-1 {
+  margin-top: 1em;
+}
+
+.linea {
+  margin:0;
+  padding: 1em;
+  text-align: center;
+}
+
+.linea:after {
+  display: inline-block;
+  margin: 0 0 8px 20px;
+  height: 1px;
+  content: " ";
+  text-shadow: none;
+  background-color: #FFF;
+  width: 6em;
+}
+
+.linea:before {
+  display: inline-block;
+  margin: 0 20px 8px 0;
+  height: 1px;
+  content: " ";
+  text-shadow: none;
+  background-color: #FFF;
+  width: 6em;
+}
+
+/* Estilos de la segunda sección */
+.section-2 {
+  background-color: #FFBF00;
+  height: 30em;
+  color:#fff;
+}
+
+.phone {
+  display: inline-block;
+  padding: 1em 7em;
+  height: 24em;
+  margin-top: -8em;
+  margin-bottom: 1em;
+}
+
+.text-desktop {
+  display: inline-block;
+  padding: 2em 2em;
+  font-weight: 600;
+  font-size: 1.1em;
+}
+
+.outline {
+  border: 1px solid #fff;
+  margin: 1.2em 0 0 -1.2em;
+}
+
+.visible-xs h4 {
+  padding: 1em;
+}
+
+.outline-2 {
+  border: 1px solid #fff;
+  margin: 1em;
+  text-align: center;
+}
+
+.phone-2 {
+  height: 20em;
+  margin-left: 10em;
+  padding: 1em;
+}
+
+/* Estilos tercera sección */
+.section-3 {
+  height: 28em;
+  background: url('../assets/images/conduce.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.driver-box {
+  color: #FFF;
+  background: #000;
+  opacity: 0.8;
+  height: 28em;
+}
+
+.driver-text {
+  margin: 8em 2em;
+  font-weight: 600;
+}
+
+.driver-text > button {
+  margin-top: 1em;
+  background: #FFBF00;
+}
+
+/* Estilos cuarta sección */
+.section-4 {
+  background-color: #FFBF00;
+  color:#fff;
+}
+.tarifas {
+  display: inline-block;
+  margin-top: 5em;
+  margin-left: 12em;
+  margin-right: 10em;
+  text-align: left;
+  width: auto;
+}
+
+.tarifas-2{
+  display: inline-block;
+  margin: 3em 0 1em 8em;
+  text-align: left;
+  width: auto;
+}
+
+.map-1 {
+  max-width: 20em;
+  margin: 2em 0 2em 8em;
+  border: 1px solid #FFF;
+  padding: .5em;
+  background: #FFBF00
+}
+
+form {
+  margin-top: 1em;
+}
+
+input {
+  background-color: #FFBF00;
+  padding: .5em;
+  border-radius: .5em;
+  border-style: none;
+  border: 1px solid #fff;
+  margin-top: 1em;
+  width: 20em;
+}
+
+.ruta {
+  margin-top: 2em;
+  margin-left: 6.5em;
+}
+
+::placeholder {
+  color: #FFF;
+  opacity: 1;
+}
+
+.map {
+  max-width: 30em;
+  margin: 2em 2em 2em 8em;
+  border: 1px solid #FFF;
+  padding: .5em;
+  background: #FFBF00
+}
+
+/* Estilos Footer */
+.footer {
+  background-color: #2d2d2d;
+  color:#fff;
+}
+.logo-lab {
+  margin-top: 4em;
+}
+
+.list-unstyled li{
+  margin: 1em 0;
+}
+
+.fa {
+  margin-top: 1em;
+  padding: 0.2em;
+}
+
+.download {
+  margin-top: 3.5em;
+  padding: 0.4em 0;
+}
+
+.copyright {
+  margin: 2em 0;
+}
